@@ -1,0 +1,16 @@
+{
+  "name": "eoxs-reel-analyzer",
+  "version": "1.0.0",
+  "description": "MCP for analyzing reels and generating video prompts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
